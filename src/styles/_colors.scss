@@ -1,0 +1,116 @@
+/*
+* jacobs pallet
+*/
+
+// blues
+$p1-blue: #231edc;
+$p2-blue: #0a7dff;
+$p3-blue: #5ae6ff;
+$p4-blue: #001e55;
+
+// purples
+$p1-purple: #6f0062;
+$p2-purple: #a800a8;
+$p3-purple: #d7a5f5;
+$p4-purple: #460f32;
+
+// reds
+$p1-red: #d72850;
+$p2-red: #ff464f;
+$p3-red: #ff9191;
+$p3-red: #690a28;
+
+// yellows
+$p1-yellow: #ffa014;
+$p2-yellow: #ffb41e;
+$p3-yellow: #ffdc78;
+$p4-yellow: #c05c27;
+
+// greens
+$p1-green: #007d55;
+$p2-green: #0ad287;
+$p3-green: #78fac8;
+$p4-green: #003c2d;
+
+// netruals
+$n1: #333;
+$n2: #a5a5a5;
+$n3: #c8c8c8;
+$n4: #e6e6e6;
+$n5: #f3f3f3;
+
+// ui support/danger
+$ui1: #eb0d19;
+
+// background
+$background: #f2f3f4;
+
+// custom colors
+$primary: $p1-blue;
+$tertiary: $n1;
+$secondary: #485a79;
+$success: #198754;
+$danger: $ui1;
+$warning: #ffc107;
+$info: #0dcaf0;
+$light: #8bb6ff;
+$lightGrey: #e6e7eb;
+$extreme: #6f42c1;
+$tableGrey: #e0e0e0;
+
+// basic colors
+$transparent: #ffffff00;
+$white: #ffffff;
+$black: #000000;
+$charcoal: #010101;
+
+// Grayscale colors
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+/**
+** Color palette
+**/
+
+$theme-colors: (
+  'primary': $primary,
+  'tertiary': $tertiary,
+  'secondary': $transparent,
+  'utility': $transparent,
+  'success': $success,
+  'ghost': $transparent,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'extreme': $extreme,
+  'light': $light,
+  'white': $white,
+  'background': $background,
+  'light-grey': $lightGrey,
+  'table-grey': $tableGrey,
+  'n1': $n1,
+  'n2': $n2,
+  'n3': $n3,
+  'n4': $n4,
+  'black': $black,
+  'gray-100': $gray-100,
+  'gray-200': $gray-200,
+  'gray-300': $gray-300,
+  'gray-400': $gray-400,
+  'gray-500': $gray-500,
+  'gray-600': $gray-600,
+  'gray-700': $gray-700,
+  'gray-800': $gray-800,
+  'gray-900': $gray-900,
+  'blue-1': $p1-blue,
+  'blue-2': $p2-blue,
+  'blue-3': $p3-blue,
+  'blue-4': $p4-blue
+) !default;

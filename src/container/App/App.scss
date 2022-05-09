@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+
+.arrow {
+  position: relative;
+  height: 100%;
+
+  .left-side {
+    position: absolute;
+    top: 105px;
+    right: -170px;
+    background-color: $p4-blue;
+    color: $white;
+    width: 345px;
+    height: 80px;
+    transform: rotate(75deg);
+    border-radius: 50px 0px 0px 50px;
+  }
+
+  .right-side {
+    position: absolute;
+    bottom: 90px;
+    right: -170px;
+    background-color: $p4-blue;
+    color: $white;
+    width: 345px;
+    height: 80px;
+    transform: rotate(105deg);
+    border-radius: 0px 50px 50px 0px;
+  }
+}
